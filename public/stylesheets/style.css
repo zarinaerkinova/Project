@@ -1,0 +1,26 @@
+/* nav {
+    background-color: black;
+} */
+
+.online_shop{
+    text-align: center;
+}
+
+.img1{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.btn-floating.halfway-fab{
+    position: fixed; 
+    bottom: 50px; 
+    right: 50px;
+    display: flex;
+    width: 50px;
+    height: 50px;
+}
+
+.btn-floating.halfway-fab i{
+    font-size: 40px;
+}

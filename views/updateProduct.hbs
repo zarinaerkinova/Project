@@ -1,0 +1,25 @@
+<div class="container">
+    <form action="/products/update" method="POST">
+        <div class="input-field col s6">
+            <input id="name" type="text" class="validate" name="name" value="{{name}}">
+            <label for="name">Name</label>
+        </div>
+        <div class="input-field col s6">
+            <input id="image" type="text" class="validate" name="image" value="{{image}}">
+            <label for="image">Image</label>
+        </div>
+
+        <div class="input-field col s6">
+            <input id="price" type="number" class="validate" name="price" value="{{price}}">
+            <label for="price">Price</label>
+        </div>
+
+        <div class="input-field col s6">
+            <input id="id" type="hidden" class="validate" name="id" value="{{id}}" />
+        </div>
+
+        <div class="input-field  col s6" style="text-align: end;">
+            <button class="waves-effect waves-light btn" type="submit">Update product</button>
+        </div>
+    </form>
+</div>
